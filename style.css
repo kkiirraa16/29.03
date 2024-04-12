@@ -1,34 +1,48 @@
-#div1{
+.head{
+    background-color: orange;
+    position: absolute;
+    height: 400px;
+    top: 250px;
+    left: 500px;
+    right: 500px;
+    border-radius:50% ;
+}
+.ear1{
+    background-color: orange;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 600px;
+    top: 250px;
+    transform: rotate(30deg);
+}
+.ear2{
+    background-color: orange;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    right: 600px;
+    top: 250px;
+    transform: rotate(-30deg);
+}
+.eye1{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    top: 200px;
+    left: 700px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.eye2{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 200px;
+    bottom: 650px;
+    right: 700px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
     
-    height: 30px;
-    background-color: blue;
-    position: absolute;
-    top: 70px;
-    bottom: 70px;
-    right: 250px;
-    left: 250px;
-}
-#div2{
-    width: 30px;
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    top: 30px;
-    bottom: 30px;
-    left: 300px;
-}
-#div3{
-    width: 30px;
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    top: 30px;
-    bottom: 30px;
-    right: 320px;
-}
-#div4{
-    background-color: rgb(68, 0, 255);
-    top: 220px;
-    bottom: 220px;
-    left: 550px;
-    right: 550px;
-    position: absolute;
-}
